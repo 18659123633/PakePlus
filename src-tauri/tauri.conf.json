@@ -1,6 +1,6 @@
 {
     "package": {
-        "productName": "无限AI影像 ",
+        "productName": "wxAI",
         "version": "1.1.0"
     },
     "tauri": {
@@ -69,7 +69,7 @@
         },
         "bundle": {
             "active": true,
-            "targets": ["deb", "appimage", "nsis", "app", "dmg", "updater"],
+            "targets": "all",
             "identifier": "com.wxAI.app",
             "icon": [
                 "icons/32x32.png",
